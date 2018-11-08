@@ -1,0 +1,301 @@
+
+
+html {
+  background-color: #E0E0E0;
+}
+
+body {
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h2 {
+  border-bottom: 1px solid;
+}
+input[type=radio]:checked + label {
+  color: red;
+  font-weight: bold;
+}
+#container{
+  position: absolute;
+  width:100%;
+  height:100%;
+  background-color: green;
+  left:0;
+  right:0;
+  top:0;
+  margin:0 ;
+  overflow: hidden;
+
+}
+.repeatb{
+  position: absolute;
+  background: green url("img/back.png") repeat;
+  background-position:0px 0px;
+  width:64px;
+  height:64px;
+}
+.facep{
+  background-position: -26px -55px;
+  width: 26px;
+  height: 26px;
+}
+.facew{
+  background-position: -104px -55px;
+  width: 26px;
+  height: 26px;
+}
+.faceo{
+  background-position: -52px -55px;
+  width: 26px;
+  height: 26px;
+}
+.face{
+  background-position: 0 -55px;
+    width: 26px;
+    height: 26px;
+}
+.faced{
+  background-position: -78px -55px;
+  width: 26px;
+  height: 26px;
+}
+#faceid{
+  height: 26px;
+  margin-left: 14px;
+  top: -2px;
+  position: relative;
+  margin-top: 5px;
+}
+.bbl{
+  background-position: -20px -81px;
+    width: 10px;
+    height: 10px;
+}
+.bbr{
+  background-position: -30px -81px;
+    width: 10px;
+    height: 10px;
+}
+#a{
+  background: green url("img/back.png") repeat;
+  background-position:0px 0px;
+  background-size: 64px 64px;  
+  width:64px;
+  height:64px;
+}
+#gamecont{
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top:20px;
+}
+.lform label,.mform label{
+  width: 100%;
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    right: 5px;
+}
+.btb{
+  background-position: -40px -81px;
+  width: 16px;
+  height: 10px;
+}
+.ml{
+  position: relative;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.575);
+  padding-top:5px;
+}
+.inpl{
+  position: relative;
+}
+.inpd{
+  position: relative;
+  top:-2px;
+}
+.menuleft{
+  position: absolute;
+  text-align: center;
+  height: 236px;
+  width: 70px;
+  top: -2px;
+  /* background-color: rgba(0, 0, 0, 0.575); */
+  color: white;
+  left: 0px;
+  top: 20px;
+  font-size: 13px;
+  /* padding-top: 25px; */
+
+  margin: auto;
+}
+.menutop{
+  position: relative;
+    height: 25px;
+    width: 100%px;
+    top: -2px;
+    background-color: rgba(0, 0, 0, 0.575);
+    color:white;
+}
+.lform{
+  height: 100%;
+  position: relative;
+  top: 19px;
+}
+.mform{
+  height: 100%;
+    position: relative;
+    top: 19px;
+}
+.bjointl{
+  background-position: -56px -81px;
+  width: 10px;
+  height: 10px;
+}
+
+.bjointr{
+  background-position: -66px -81px;
+  width: 10px;
+  height: 10px;
+}
+#field{
+  position: relative;
+  height:206px;
+  background-color: silver;
+  left:0;
+  right:0;
+  margin:0 auto;
+  transform-origin: top center;
+}
+#c_h{
+  margin: 4px 0 5px 6px;
+  margin-left:0px;
+}
+#c_t{
+  margin: 4px 0 5px 0;
+}
+#c_o{
+  margin: 4px 6px 5px 0;
+}
+#m_h{
+  margin: 4px 0 5px 6px;
+}
+#m_t{
+  margin: 4px 0 5px 0;
+}
+#m_o{
+  margin: 4px 0 5px 0;
+}
+.t{
+  width: 13px;
+  height: 23px;
+}
+.t9{
+  background-position: -117px 0;
+}
+.t8{
+  background-position: -104px 0;
+}
+.t7{
+  background-position: -91px 0;
+}
+.t6{
+  background-position: -78px 0;
+}
+.t5{
+  background-position: -65px 0;
+}
+
+.t4{
+  background-position: -52px 0;
+}
+
+.t3{
+  background-position: -39px 0;
+}
+
+.t2{
+  background-position: -26px 0;
+}
+
+.t1{
+  background-position: -13px 0;
+}
+.t0{
+  background-position: 0 0;
+}
+.blank{
+  background-position: 0 -39px;
+    width: 16px;
+    height: 16px;
+}
+#field div{
+  float:left;
+  background-image: url('img/sprite.gif');
+}
+.bd-cr{
+  background-position: 0px -81px;
+  width:10px;
+  height:10px;
+}
+.bd-crr{
+  background-position: -10px -81px;
+  width:10px;
+  height:10px;
+}
+.bdc{
+  background-position: -134px -39px;
+  width: 10px;
+  height: 16px
+}
+.bomb{
+  background-position: -64px -39px;
+    width: 16px;
+    height: 16px;
+}
+
+.sq:hover{
+  opacity: 1;
+}
+
+.bd-l_long{
+  background-position: -134px -39px;
+    width: 10px;
+    height: 32px
+}
+.bd-nm{
+  background-position: -40px -81px;
+  width:16px;
+  height:10px;
+}
+
+.sq{
+  opacity: 0.9;
+  width:16px;
+  height: 16px;
+}
+
+.n0{
+  background-position: 0px -23px;
+}
+.n1{
+  background-position: -16px -23px;
+}.n2{
+  background-position: -32px -23px;
+}.n3{
+  background-position: -48px -23px;
+}.n4{
+  background-position: -64px -23px;
+}.n5{
+  background-position: -80px -23px;
+}.n6{
+  background-position: -96px -23px;
+}.n7{
+  background-position: -112px -23px;
+}
